@@ -5,9 +5,7 @@ name: Discussion Triage
 # notifications). Announcements are our own posts — skip those.
 
 on:
-  discussion:
-    types: [created]
-
+  workflow_dispatch:
 permissions:
   discussions: write
 
