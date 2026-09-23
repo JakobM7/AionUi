@@ -10,9 +10,7 @@ name: Issue Triage
 # also fire "labeled" events, so that path is covered too.)
 
 on:
-  issues:
-    types: [opened, labeled]
-
+  workflow_dispatch:
 permissions:
   issues: write
   contents: read
