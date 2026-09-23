@@ -17,10 +17,6 @@ name: Distribute Release Assets
 # Do NOT hardcode these values in this file.
 
 on:
-  release:
-    types: [published]
-  # Manual trigger for smoke testing or for retrying a missed release:
-  # pick any existing release tag to re-run the distribution against.
   workflow_dispatch:
     inputs:
       tag:
